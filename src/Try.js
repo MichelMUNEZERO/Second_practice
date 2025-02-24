@@ -1,11 +1,13 @@
 import React from "react";
 import "./index.css";
+import illustrationArticle from "./illustrationArticle.svg";
+import imageAvatar from "./imageAvatar.webp";
 function Try() {
   return (
     <div>
       <div className="section">
         <div className="container">
-          <img src="assets/images/illustration-article.svg" alt="" />
+          <img src={illustrationArticle} alt="Article Illustration" />
           <div className="texts">
             <h2>Learning</h2>
             <p>Published 21 Dec 2023</p>
@@ -15,7 +17,7 @@ function Try() {
               structure, content, and presentation.
             </p>
             <div className="second-image">
-              <img src="assets\images\image-avatar.webp" alt="" />
+              <img src={imageAvatar} alt=" Avatar of Greg Hooper" />
               <p>Greg Hooper</p>
             </div>
           </div>
