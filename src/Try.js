@@ -23,7 +23,7 @@ function Try() {
           </div>
         </div>
       </div>
-      <div class="attribution">
+      <div class="bottom-link">
         Challenge by{" "}
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor

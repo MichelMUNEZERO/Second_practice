@@ -1,5 +1,5 @@
 body {
-  background-color: hsl(47, 89%, 62%);
+  background-color: hwb(47 28% 4%);
   padding: 0;
   margin: 0;
   line-height: 1.5em;
@@ -9,7 +9,7 @@ body {
 }
 
 .section {
-  background-color: white;
+  background-color: hwb(0 100% 0%);
   width: 350px;
   height: 100%;
   display: flex;
@@ -33,7 +33,7 @@ body {
   margin-bottom: 10px;
 }
 .texts h2 {
-  background-color: rgb(255, 216, 88);
+  background-color: hwb(46 35% 0%);
   font-size: 20px;
   display: inline-block;
   padding: 3px 8px;
@@ -57,7 +57,7 @@ body {
 }
 .texts a:hover {
   text-decoration: none;
-  color: rgb(230, 200, 34);
+  color: hwb(51 13% 10%);
 }
 .second-image {
   padding: 30px;
@@ -72,9 +72,8 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
-.attribution {
+.bottom-link {
   font-size: 11px;
   text-align: center;
-  color: hsl(228, 45%, 44%);
-  margin-top: 5px;
+  color: hwb(228 24% 36%);
 }
