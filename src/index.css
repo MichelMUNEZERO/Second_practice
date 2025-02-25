@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(243, 184, 106);
+  background-color: hsl(47, 89%, 62%);
   padding: 0;
   margin: 0;
   line-height: 1.5em;
@@ -10,7 +10,7 @@ body {
 
 .section {
   background-color: white;
-  width: 400px;
+  width: 350px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -27,38 +27,54 @@ body {
   display: flex-block;
 }
 .container img {
-  border-radius: 10px;
   justify-content: center;
   align-items: center;
   display: flex;
+  margin-bottom: 10px;
 }
 .texts h2 {
-  background-color: rgb(253, 206, 49);
+  background-color: rgb(255, 216, 88);
   font-size: 20px;
   display: inline-block;
-  padding: 2px 4px;
+  padding: 3px 8px;
   margin: 8px 0px;
 }
-.texts p {
+.publish {
+  font-weight: 600;
+}
+.Paragraph {
+  font-family: "Roboto", sans-serif; /* Or use 'Arial', 'Helvetica', or any clean sans-serif */
   font-size: 18px;
-  font-weight: 200;
+  color: #727070;
+  line-height: 1.6;
 }
 .texts a {
   text-decoration: none;
+  font-size: x-large;
   color: black;
-  font-weight: 500;
+  font-weight: bold;
+  text-align: center;
 }
 .texts a:hover {
   text-decoration: none;
-  color: rgb(33, 56, 129);
+  color: rgb(230, 200, 34);
 }
 .second-image {
   padding: 30px;
   display: flex;
   object-fit: cover;
+  margin-right: px;
   vertical-align: middle;
 }
 .second-image p {
   align-items: center;
-  margin-left: 12px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+  margin-top: 5px;
 }

@@ -10,9 +10,9 @@ function Try() {
           <img src={illustrationArticle} alt="Article Illustration" />
           <div className="texts">
             <h2>Learning</h2>
-            <p>Published 21 Dec 2023</p>
+            <p class="publish">Published 21 Dec 2023</p>
             <a href="#">HTML & CSS foundations</a>
-            <p>
+            <p class="Paragraph">
               These languages are the backbone of every website, defining
               structure, content, and presentation.
             </p>
